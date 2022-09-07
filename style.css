@@ -21,7 +21,7 @@ main {
   height: 800px;
 }
 
-section {
+.content {
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -39,7 +39,7 @@ img {
   border-radius: 8px;
 }
 
-.content {
+article {
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -48,19 +48,20 @@ img {
   padding: 5px;
 }
 
-.content h2 {
+article h1 {
   margin-top: 30px;
   font-family: "Outfit", sans-serif;
   font-weight: 700;
   font-size: 22px;
 }
 
-.content p {
+article p {
   margin-top: 15px;
   font-family: "Outfit", sans-serif;
   font-weight: 400;
   font-size: 15px;
   color: hsl(220, 15%, 55%);
+  padding: 10px;
 }
 
 .attribution {
