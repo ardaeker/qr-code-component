@@ -11,10 +11,10 @@ export default function Home() {
           height={288}
           className="rounded-image mb-6"
         />
-        <h1 className="text-title text-dark-navy test mb-4 px-4 font-semibold ">
+        <h1 className="text-title text-dark-navy test mb-4 px-4 font-bold ">
           Improve your front-end skills by building projects
         </h1>
-        <p className="text-content text-grey px-4 font-light">
+        <p className="text-content text-grey px-4 font-normal">
           Scan the QR code to visit Frontend Mentor and take your coding skills
           to the next level
         </p>
