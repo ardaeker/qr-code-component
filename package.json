@@ -2,6 +2,10 @@
   "name": "qr-code-component",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Arda Eker",
+    "email": "ardaekertr@gmail.com"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,19 +13,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "latest",
     "react": "latest",
-    "react-dom": "latest",
-    "next": "latest"
+    "react-dom": "latest"
   },
   "devDependencies": {
-    "typescript": "latest",
-    "@types/react": "latest",
     "@types/node": "latest",
+    "@types/react": "latest",
     "@types/react-dom": "latest",
     "autoprefixer": "latest",
-    "postcss": "latest",
-    "tailwindcss": "latest",
     "eslint": "latest",
-    "eslint-config-next": "latest"
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.4",
+    "tailwindcss": "latest",
+    "typescript": "latest"
   }
 }
