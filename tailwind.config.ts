@@ -9,8 +9,22 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        blue: "var(--color-blue)",
+        gray: "var(--color-gray)",
+        white: "var(--color-white)",
+        "light-gray": "var(--color-light-gray)",
+        "dark-navy": "var(--color-dark-navy)",
+        "blue-shade": "var(--color-blue-shade)",
+      },
+      maxWidth: {
+        card: "var(--max-width-card)",
+      },
+      borderRadius: {
+        card: "var(--border-radius-card)",
+        "qr-code": "var(--border-radius-qr-code)",
+      },
+      boxShadow: {
+        card: "var(--box-shadow-card)",
       },
     },
   },
