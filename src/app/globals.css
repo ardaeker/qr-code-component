@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #d5e1ef;
+  --foreground: #68778d;
+
+  --color-white: #ffffff;
+
+  --color-slate-300: #d5e1ef;
+  --color-slate-500: #68778d;
+  --color-slate-900: #1f314f;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+@layer utilities {
+  .min-h-screen {
+    min-height: 100vh;
+    min-height: 100dvh;
+  }
+}
