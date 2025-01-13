@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     'TypeScript',
     'Arda Eker',
   ],
-  metadataBase: new URL('http://localhost:3000/'),
+  metadataBase: new URL('https://qr-code-component-beryl-ten.vercel.app/'),
   openGraph: {
     title: 'Frontend Mentor - QR Code Component',
     description:
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: 'http://localhost:3000/',
+    canonical: 'https://qr-code-component-beryl-ten.vercel.app',
   },
   icons: {
     icon: '/icon.png',
