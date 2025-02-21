@@ -15,9 +15,9 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: 'Frontend Mentor - QR Code Component',
+  title: 'Arda Eker - QR Code Component',
   description:
-    'This website is a solution to the QR Code Component challenge on Frontend Mentor. It is built with Next.js, Tailwind CSS, and TypeScript. Coded by Arda Eker.',
+    'A tested, SEO-friendly QR code component with semantic markup and responsive design.',
   authors: {
     name: 'Arda Eker',
     url: 'https://github.com/ardaeker',
@@ -35,10 +35,10 @@ export const metadata: Metadata = {
   ],
   metadataBase: new URL('https://qr-code-component-beryl-ten.vercel.app/'),
   openGraph: {
-    title: 'Frontend Mentor - QR Code Component',
+    title: 'Arda Eker - QR Code Component',
     description:
-      'This website is a solution to the QR Code Component challenge on Frontend Mentor. It is built with Next.js, Tailwind CSS, and TypeScript. Coded by Arda Eker.',
-    siteName: 'Frontend Mentor - QR Code Component solution',
+      'A tested, SEO-friendly QR code component with semantic markup and responsive design.',
+    siteName: 'Arda Eker - QR Code Component solution',
     images: [
       {
         url: 'open-graph-image.png',
@@ -47,9 +47,6 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: 'https://qr-code-component-beryl-ten.vercel.app',
-  },
-  icons: {
-    icon: '/icon.png',
   },
 };
 
