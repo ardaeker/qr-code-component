@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --color-slate-300: #d5e1ef;
+  --color-slate-500: #68778d;
+  --color-slate-900: #1f314f;
+
+  --shadow-card: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+}
+
+@theme inline {
+  --font-outfit: var(--font-outfit);
+  --font-outfit--font-feature-settings: "liga" off, "clig" off;
+
+  --color-slate-300: var(--color-slate-300);
+  --color-slate-500: var(--color-slate-500);
+  --color-slate-900: var(--color-slate-900);
+
+  --shadow-card: var(--shadow-card);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
